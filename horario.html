@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários VP</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table tr:nth-child(even) {
+           background-color: aquamarine;
+        }
+        table tr:hover td {
+            background-color: rgba(0, 0, 255, 0.55);
+        }
+        table{
+            border: solid 2px gray;
+            box-shadow: 17px 16px 7px -1px rgba(110,110,110,0.75);
+            -webkit-box-shadow: 17px 16px 7px -1px rgba(110,110,110,0.75);
+            -moz-box-shadow: 17px 16px 7px -1px rgba(110,110,110,0.75);
+        }
+        table thead th {
+            background-color: aqua;
+        }
+        table tfoot th {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o meu menu -->
+            <ul>
+                <li><a href="http://127.0.0.1:5500/principal.html"> <strong>Página Principal</strong></a></li>
+                <li><a href="http://127.0.0.1:5500/clinica.html"> <strong>Sobre a Clínica</strong></a></li>
+                <li><a href="http://127.0.0.1:5500/horario.html"> <strong>Horários de atendimento</strong></a></li>
+                <li><a href="http://127.0.0.1:5500/contato.html"> <strong>Contato</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+                <img title="Horários de atendimento" src="Banner horario de atendimento.png" alt="Banner sobre os horários de atendimento"  width="1000" height="325">
+                <!-- Aqui vai o meu header -->
+            </div>
+    
+            <div class="content">
+                
+                <h3>
+                    Em nossa clínica, temos diversos serviços como mostra a tabela a baixo com dias da semana, 
+                    horários e valores de cada serviço:
+                </h3>
+                <table width="500" align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Preços</th>
+                            <th>Seg a Sex</th>
+                            <th>Sábados</th>
+                            <th>Domingos e Feriados</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Vacinação</td>
+                            <td>A partir de R$60,00</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 17h</td>
+                            <td>10h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Castração</td>
+                            <td>A partir de R$200,00</td>
+                            <td>08h - 22h</td>
+                            <td>08h - 22h</td>
+                            <td>10h - 18h</td>
+                        </tr>
+                        <tr>
+                            <td>Ultrassom e Raio-X</td>
+                            <td>A partir de R$70,00</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 17h</td>
+                            <td>10h - 15h</td>
+                        </tr>
+                        <tr>
+                            <td>Cirurgias</td>
+                            <td>A partir de R$200,00</td>
+                            <td>08h - 22h</td>
+                            <td>08h - 22h</td>
+                            <td>10h - 18h</td>
+                        </tr>
+                        <tr>
+                            <td>Remoção de tártaro</td>
+                            <td>A partir de R$300,00</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 17h</td>
+                            <td>10h - 15h</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th colspan="5">Internação 24 Horas</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                <h3>
+                    Trabalhamos com agendamentos e por ordem de chegada. Caso seja uma emergência ou 
+                    precisar internar o seu animal, temos profissionais capacitados 24 horas para esse 
+                    tipo de serviço.
+                </h3>
+                <!-- Aqui vai o meu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                
+                <p>Endereço: R. Ipojuca, 235 - Teresópolis/RJ </p>
+                <p>Telefone/WhatsApp: 21908765433</p>
+                <p>Email: veterinariavp246@gmail.com </p>
+                <!-- Aqui vai o meu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
